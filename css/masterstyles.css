@@ -1,0 +1,35 @@
+body {
+	color: #646464;
+}
+
+a {
+  color: #646464;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+	transition: all 0.15s ease;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn {
+	text-transform: uppercase;
+}
+/* Back to top icon*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display:none;
+}
+
+ .shadow {
+      background: #fcfcfc;
+      -webkit-box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.15);
+}
